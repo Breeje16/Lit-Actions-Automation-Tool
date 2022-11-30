@@ -9,8 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@rainbow-me/rainbowkit": "^0.8.0",
+    "ethers": "^5.7.2",
+    "lit-js-sdk": "^1.1.237",
+    "lit-pkp-sdk": "^1.0.3",
+    "lodash.merge": "^4.6.2",
     "next": "13.0.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "wagmi": "^0.8.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4"
   }
 }
