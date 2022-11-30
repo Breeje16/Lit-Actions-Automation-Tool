@@ -1,34 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Lit Actions Automation Tool (Still Under Development)
 
-First, run the development server:
+It will be Completed by End of Next week.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+About Project: It is an event listening solution for Lit Actions. This will allow developers to write Actions that are executed when a specified on (or off) chain event occurs.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## How to Use this Tool?
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+[![Lit-Action-Automation-Tool-drawio-1.png](https://i.postimg.cc/MH7XXx0w/Lit-Action-Automation-Tool-drawio-1.png)](https://postimg.cc/hQGK3k3Z)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+By Leveraging PKP (Programable Key Pairs), Lit Action gets the capabilities of signing and decrypting.
 
-## Learn More
+About PKP: PKP is like a Cloud Wallet where all Key Pairs are generated collectively by the Lit Nodes through a process called Distributed Key Generation (DKG). This process permits the Lit Nodes to generate a new public/private keypair where nobody knows the whole private key. Each node has a share of a private key, and they can do everything with it that they could do with a traditional private key, like sign and decrypt data. Signing with a private key share produces a signature share.
 
-To learn more about Next.js, take a look at the following resources:
+It's Advantage is that User now no Longer needs to "Trigger" any Lit Actions. Instead this Project uses Event Based Automation which can have so many Usecases.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[![Lit-Action-Automation-Tool-drawio-2.png](https://i.postimg.cc/SN0Y71j3/Lit-Action-Automation-Tool-drawio-2.png)](https://postimg.cc/F1ZKhZyV)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+STEP 1: Here the Developer will have to Define the Trigger Type which Determines which type of event the action will be listening to.
 
-## Deploy on Vercel
+STEP 2: Next, Developer will have to add a Code which will run whenever a "Trigger" Condition is Met.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+STEP 3: Now, Developer will have to set the Condition when the Trigger should happen.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+STEP 4: Last Step will be the Optional step where Developer can get some type of Notification regarding Failure in Execution.
+
+
+
+## Common Usecases of this Tool
+
+- Building a serverless backend that handles dApp users' input.
+
+- Sending a transaction to the chain from a Web3 Action itself.
+
+- Sending the data about a transaction to other (Web2 or Web3) services via HTTP.
+
+- Sending Reminders for Voting in a DAO proposal on Discord.
+
+
+
