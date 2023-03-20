@@ -1,8 +1,6 @@
 
 # Lit Actions Automation Tool (Still Under Development)
 
-It will be Completed by End of Next week.
-
 About Project: It is an event listening solution for Lit Actions. This will allow developers to write Actions that are executed when a specified on (or off) chain event occurs.
 
 
